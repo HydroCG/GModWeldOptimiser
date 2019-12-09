@@ -47,5 +47,5 @@ function WeldOptimiser:BeginCooldown(ply)
 end
 
 hook.Add("PlayerDisconnected", "WeldOptimiser_Shared_Cleanup", function(ply)
-    WeldOptimiser[ply:SteamID()] = nil
+    WeldOptimiser.PlayerCooldowns[ply:SteamID()] = nil
 end)

@@ -1,5 +1,3 @@
-util.AddNetworkString("weld_optimise")
-
 WeldOptimiser = WeldOptimiser or {}
 
 local STATUS_RETRIEVE_ENTITIES = 1
